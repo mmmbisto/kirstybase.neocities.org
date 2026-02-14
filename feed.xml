@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+    <title>kirstybase AT Neocities</title>
+<link>http://kirstybase.neocities.org</link>
+<description>Updates for kirstybase Neocities site</description>
+    
+    <item>
+<title>Added RSS updates!</title>
+<link>http://kirstybase.neocities.org</link>
+<guid>http://kirstybase.neocities.org</guid>
+<pubDate>Thu, 13 Mar 2025 11:29:00 GMT</pubDate>
+<description>Description for your content.</description>
+</item>
+    
+
+</channel>
+</rss>

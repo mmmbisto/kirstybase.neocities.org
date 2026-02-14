@@ -1,0 +1,46 @@
+body {
+  background-color: #FF8000;
+    color: white
+}
+
+a {
+  color: #ffffff;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "menu content"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+    width: 50%;
+    margin: auto;
+  gap: 1px;
+  padding: 5px;
+}
+.container > div {
+  background-color: rgba(0, 0, 0, 0.81);
+  padding: 10px;
+}
+.container > div.header {
+  grid-area: header;
+  text-align: center;
+}
+.container > div.menu {
+  grid-area: menu;
+}
+.container > div.content {
+  grid-area: content;
+}
+.container > div.footer {
+  grid-area: footer;
+}
+
+.gradmask {
+background: linear-gradient(#A3E900, white);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size:3em;
+filter: drop-shadow(0px 1px black) drop-shadow(0 -1px black) drop-shadow(1px 0 black) drop-shadow(-1px 0 black);
+}
